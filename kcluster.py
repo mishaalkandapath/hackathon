@@ -79,7 +79,7 @@ for year in exported_iraq:
 print(imported_iraq)
 print(deaths_map["Syria"])
 #plot matplot for year to imports, exports, peace_idx?
-plt.figure("China")
+plt.figure(inutted_country)
 plt.plot(list(range(1970, 2021)), [imported_iraq[year] for year in list(range(1970, 2021))], label="imported", color="b")
 #plt.plot(list(range(1970, 2021)), [exported_iraq[year] for year in list(range(1970, 2021))], label="exported")
 plt.plot(list(range(1970, 2021)), [deaths_map[inutted_country][year] for year in list(range(1970, 2021))], label="peace_idx", color="g")
