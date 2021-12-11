@@ -118,7 +118,7 @@ def generateDeckHeat(df,name):
 
     
 if __name__ == "__main__":
-    ARMS_TRADE_DB = ('./ArmsAndPeaceData/ged211-csv/ged211.csv')
+    ARMS_TRADE_DB = ('./ArmsTrade/ged211.csv')
 
     df = filterData(ARMS_TRADE_DB)
     #generateDeck(df,'arms-filtered-8')
